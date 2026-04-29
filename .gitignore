@@ -1,0 +1,10 @@
+# Airflow
+logs/
+.gemini/
+__pycache__/
+*.pyc
+.env
+# Ignore the nested git history but keep the files
+!it-jobs-market/
+it-jobs-market/data/
+it-jobs-market/datasets IT Jobs/
