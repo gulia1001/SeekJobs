@@ -1,0 +1,458 @@
+{
+ "username": "nurdauletsnn-pixel",
+ "name": null,
+ "bio": null,
+ "company": null,
+ "blog": "",
+ "location": null,
+ "followers": 0,
+ "public_repos": 6,
+ "profile_url": "https://github.com/nurdauletsnn-pixel",
+ "pinned_repo_names": [],
+ "repos": [
+  {
+   "name": "rag-chatbot-deep_learning-2-",
+   "full_name": "nurdauletsnn-pixel/rag-chatbot-deep_learning-2-",
+   "html_url": "https://github.com/nurdauletsnn-pixel/rag-chatbot-deep_learning-2-",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "language": "HTML",
+   "languages": {
+    "HTML": 9774977,
+    "Python": 85787
+   },
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2026-04-25T09:25:19Z",
+   "pushed_at": "2026-04-25T09:25:14Z",
+   "created_at": "2026-04-25T08:28:04Z",
+   "size_kb": 732,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": "FastAPI Docs RAG Chatbot Retrieval-Augmented Generation chatbot over FastAPI documentation. The project includes ingestion, token-aware chunking, sentence-transformer embeddings, Chroma retrieval, grounded LLM generation with citations, Streamlit UI, and evaluation artifacts. Setup Add your GROQ_API_KEY to .env for generation/UI. Retrieval-only evaluation does not call the LLM API. The embedding model is sentence-transformers/all-MiniLM-L6-v2. The first run may download model files from HuggingFace. Later runs use the local cache; if the model is missing and there is no internet, index building will fail with a clear message. Data The corpus uses two file types in practice: - data/raw/html/: locally scraped FastAPI HTML pages - data/raw/markdown/: Markdown documents derived from the loc...",
+   "root_files": [
+    ".env.example",
+    ".gitignore",
+    "README.md",
+    "data",
+    "demo",
+    "eval",
+    "generation",
+    "ingest",
+    "pipeline.py",
+    "report",
+    "requirements.txt",
+    "retrieval",
+    "scripts",
+    "ui"
+   ],
+   "candidate_file_presence": [
+    "README.md",
+    "requirements.txt"
+   ],
+   "stack_signals": [
+    "Python",
+    "HTML",
+    "FastAPI",
+    "BeautifulSoup",
+    "pandas",
+    "NumPy"
+   ],
+   "project_type": "scraper",
+   "business_goal": "FastAPI Docs RAG Chatbot Retrieval-Augmented Generation chatbot over FastAPI documentation. The project includes ingestion, token-aware chunking, sentence-transformer embeddings, Chroma retrieval, grounded LLM generat...",
+   "activity": {
+    "sampled_commit_count": 9,
+    "last_commit_at": "2026-04-25T09:25:11+00:00",
+    "first_sampled_commit_at": "2026-04-25T08:31:49+00:00",
+    "active_days_in_sample": 1,
+    "sample_window_days": 1
+   },
+   "is_pinned": false,
+   "resume_score": 24,
+   "heuristic_resume_bullets": [
+    "Built and maintained a scraper project focused on fastapi docs rag chatbot retrieval-augmented generation chatbot over fastapi documentation. the project includes ingestion, token-aware chunking, sentence-transformer embeddings, chroma retrieval, grounded llm generat....",
+    "Worked with Python, HTML, FastAPI, BeautifulSoup, pandas and published the solution as a public GitHub repository.",
+    "Shipped at least 9 sampled commits with visible public development activity."
+   ],
+   "llm_resume": {
+    "project_type": "scraper",
+    "business_goal": "FastAPI Docs RAG Chatbot Retrieval-Augmented Generation chatbot over FastAPI documentation",
+    "stack": [
+     "Python",
+     "FastAPI",
+     "BeautifulSoup",
+     "pandas",
+     "NumPy",
+     "HTML"
+    ],
+    "resume_bullets": [
+     "Developed a Retrieval-Augmented Generation chatbot using FastAPI documentation, incorporating ingestion, token-aware chunking, and sentence-transformer embeddings",
+     "Implemented a chatbot with Chroma retrieval, grounded LLM generation, and Streamlit UI, achieving a functional RAG system"
+    ],
+    "confidence": "high"
+   }
+  },
+  {
+   "name": "Zerdeli-Education-Platform-MVP",
+   "full_name": "nurdauletsnn-pixel/Zerdeli-Education-Platform-MVP",
+   "html_url": "https://github.com/nurdauletsnn-pixel/Zerdeli-Education-Platform-MVP",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "language": "TypeScript",
+   "languages": {
+    "TypeScript": 440445,
+    "CSS": 9937,
+    "JavaScript": 460,
+    "HTML": 332
+   },
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2026-04-05T12:09:24Z",
+   "pushed_at": "2026-04-05T12:09:14Z",
+   "created_at": "2026-04-05T12:01:34Z",
+   "size_kb": 40860,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": "Zerdeli EDUCATION 🚀 Быстрый старт Запуск текущего проекта src/ ├── app/ │ ├── components/ │ │ ├── dashboard/ # Компоненты дашбордов и страниц │ │ │ ├── Dashboard.tsx # Главный дашборд │ │ │ ├── AllStudents.tsx # Список всех студентов │ │ │ ├── AllCourses.tsx # Список всех курсов │ │ │ ├── AllProfessors.tsx # Список преподавателей │ │ │ ├── StudentProfile.tsx # Профиль студента │ │ │ ├── Attendance.tsx # Отслеживание посещаемости │ │ │ ├── ScoreInput.tsx # Внесение оценок │ │ │ ├── CuratorDashboard.tsx # Панель куратора │ │ │ ├── Add*.tsx files # Компоненты создания объектов │ │ │ └── Edit*.tsx files # Компоненты редактирования │ │ ├── ui/ # UI компоненты (shadcn/ui) │ │ │ ├── button.tsx │ │ │ ├── card.tsx │ │ │ ├── table.tsx │ │ │ ├── dropdown-menu.tsx │ │ │ └── ... │ │ ├── Layout.tsx #...",
+   "root_files": [
+    ".vscode",
+    "ATTRIBUTIONS.md",
+    "README.md",
+    "default_shadcn_theme.css",
+    "dist",
+    "guidelines",
+    "index.html",
+    "node_modules",
+    "package-lock.json",
+    "package.json",
+    "pnpm-workspace.yaml",
+    "postcss.config.mjs",
+    "src",
+    "vite.config.ts"
+   ],
+   "candidate_file_presence": [
+    "README.md",
+    "package.json",
+    "vite.config.ts"
+   ],
+   "stack_signals": [
+    "Node.js",
+    "Vite",
+    "TypeScript",
+    "CSS",
+    "JavaScript",
+    "HTML",
+    "React",
+    "Next.js"
+   ],
+   "project_type": "scraper",
+   "business_goal": "Zerdeli EDUCATION 🚀 Быстрый старт Запуск текущего проекта src/ ├── app/ │ ├── components/ │ │ ├── dashboard/ # Компоненты дашбордов и страниц │ │ │ ├── Dashboard.tsx # Главный дашборд │ │ │ ├── AllStudents.tsx # Списо...",
+   "activity": {
+    "sampled_commit_count": 1,
+    "last_commit_at": "2026-04-05T12:08:20+00:00",
+    "first_sampled_commit_at": "2026-04-05T12:08:20+00:00",
+    "active_days_in_sample": 1,
+    "sample_window_days": 1
+   },
+   "is_pinned": false,
+   "resume_score": 24,
+   "heuristic_resume_bullets": [
+    "Built and maintained a scraper project focused on zerdeli education 🚀 быстрый старт запуск текущего проекта src/ ├── app/ │ ├── components/ │ │ ├── dashboard/ # компоненты дашбордов и страниц │ │ │ ├── dashboard.tsx # главный дашборд │ │ │ ├── allstudents.tsx # списо....",
+    "Worked with Node.js, Vite, TypeScript, CSS, JavaScript and published the solution as a public GitHub repository.",
+    "Shipped at least 1 sampled commits with visible public development activity."
+   ],
+   "llm_resume": {
+    "project_type": "Education Platform",
+    "business_goal": "Zerdeli EDUCATION 🚀 Быстрый старт",
+    "stack": [
+     "TypeScript",
+     "React",
+     "Next.js",
+     "Node.js",
+     "Vite",
+     "CSS"
+    ],
+    "resume_bullets": [
+     "Developed a comprehensive education platform using TypeScript, React, and Next.js",
+     "Designed and implemented a dashboard with various components for students, courses, and professors"
+    ],
+    "confidence": "Medium"
+   }
+  },
+  {
+   "name": "it-jobs-market",
+   "full_name": "nurdauletsnn-pixel/it-jobs-market",
+   "html_url": "https://github.com/nurdauletsnn-pixel/it-jobs-market",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "language": "Python",
+   "languages": {
+    "Python": 374848,
+    "Jupyter Notebook": 112944
+   },
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2026-04-29T10:52:50Z",
+   "pushed_at": "2026-04-29T10:52:43Z",
+   "created_at": "2026-04-29T10:43:32Z",
+   "size_kb": 24553,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": "IT Jobs Market Streamlit dashboard and data pipeline for Kazakhstan IT job market analysis across HH, Kaspi, Kolesa, and Telegram sources. Run Project Structure Active Data Flow 1. datasets IT Jobs/ -> job_integration_pipeline.py -> data/interim/unified_job_database.csv 2. llm/ enrichment pipeline -> data/interim/enriched_jobs_full_v1.csv 3. prepare_analysis_ready_jobs.py -> data/final/analysis_ready_jobs.csv 4. repair_salary_layer_v2.py -> data/final/analysis_ready_jobs_salary_fixed_v3.csv 5. app/ reads data/final/analysis_ready_jobs_salary_fixed_v3.csv Main Docs - docs/README_ANALYSIS_READY_DATASET_RU_EN.md - docs/README_LLM_INTEGRATION.md",
+   "root_files": [
+    ".gitignore",
+    ".streamlit",
+    "README.md",
+    "app",
+    "data",
+    "data_collection",
+    "datasets IT Jobs",
+    "docs",
+    "job_integration_pipeline.py",
+    "llm",
+    "main.py",
+    "prepare_analysis_ready_jobs.py",
+    "repair_salary_layer_v2.py",
+    "requirements.txt",
+    "telegram-scraper"
+   ],
+   "candidate_file_presence": [
+    "README.md",
+    "requirements.txt"
+   ],
+   "stack_signals": [
+    "Python",
+    "Jupyter Notebook",
+    "pandas",
+    "NumPy"
+   ],
+   "project_type": "scraper",
+   "business_goal": "IT Jobs Market Streamlit dashboard and data pipeline for Kazakhstan IT job market analysis across HH, Kaspi, Kolesa, and Telegram sources. Run Project Structure Active Data Flow 1. datasets IT Jobs/ -> job_integration...",
+   "activity": {
+    "sampled_commit_count": 1,
+    "last_commit_at": "2026-04-29T10:46:03+00:00",
+    "first_sampled_commit_at": "2026-04-29T10:46:03+00:00",
+    "active_days_in_sample": 1,
+    "sample_window_days": 1
+   },
+   "is_pinned": false,
+   "resume_score": 22,
+   "heuristic_resume_bullets": [
+    "Built and maintained a scraper project focused on it jobs market streamlit dashboard and data pipeline for kazakhstan it job market analysis across hh, kaspi, kolesa, and telegram sources. run project structure active data flow 1. datasets it jobs/ -> job_integration....",
+    "Worked with Python, Jupyter Notebook, pandas, NumPy and published the solution as a public GitHub repository.",
+    "Shipped at least 1 sampled commits with visible public development activity."
+   ],
+   "llm_resume": {
+    "project_type": "Data Pipeline and Dashboard",
+    "business_goal": "IT Jobs Market Streamlit dashboard and data pipeline for Kazakhstan IT job market analysis",
+    "stack": [
+     "Python",
+     "Jupyter Notebook",
+     "pandas",
+     "NumPy",
+     "Streamlit",
+     "Telegram-scraper"
+    ],
+    "resume_bullets": [
+     "Designed and developed a data pipeline for scraping and analyzing IT job market data across multiple sources",
+     "Built a Streamlit dashboard for visualizing insights from the Kazakhstan IT job market analysis"
+    ],
+    "confidence": "High"
+   }
+  },
+  {
+   "name": "cnn-product-price",
+   "full_name": "nurdauletsnn-pixel/cnn-product-price",
+   "html_url": "https://github.com/nurdauletsnn-pixel/cnn-product-price",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "language": "Python",
+   "languages": {
+    "Python": 107053
+   },
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2026-03-12T10:50:38Z",
+   "pushed_at": "2026-03-12T10:50:35Z",
+   "created_at": "2026-03-12T09:43:46Z",
+   "size_kb": 478357,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": "🛒 CNN-Based Product Recognition & Price Estimation System > Deep Learning Course — Project 1 | SDU, 2026 --- 📌 Overview A web application that uses **5 CNN architectures** to recognize grocery products from photos and estimate their total cost. Supports **TTA (Test-Time Augmentation)** and **Ensemble inference** for improved accuracy. **Best model:** ResNet-50 — **98.3% Top-1 accuracy**, MAE = 15.7 тг --- 🏗️ Project Structure --- 🧠 Models & Results | Model | Top-1 | Top-5 | MAE (тг) | RMSE (тг) | Size | Inference | |-------|-------|-------|----------|-----------|------|-----------| | **ResNet-50** ⭐ | **98.3%** | **99.7%** | **15.7** | **159.7** | 94 MB | 12.6 ms | | VGG-16 | 97.9% | 99.3% | 76.2 | 709.6 | 537 MB | 22.9 ms | | GoogLeNet | 95.5% | 99.0% | 74.8 | 600.8 | 23 MB | 8.2 ms |...",
+   "root_files": [
+    ".DS_Store",
+    ".gitignore",
+    "README.md",
+    "dataset",
+    "download_weights.py",
+    "gitignore",
+    "googlenet.py",
+    "models",
+    "photos",
+    "price_database.json",
+    "requirements.txt",
+    "step1_prepare.py",
+    "step2_train.py",
+    "step3_app.py",
+    "step4_improve.py",
+    "step5_app_v2.py"
+   ],
+   "candidate_file_presence": [
+    "README.md",
+    "requirements.txt"
+   ],
+   "stack_signals": [
+    "Python",
+    "pandas",
+    "NumPy"
+   ],
+   "project_type": "ml",
+   "business_goal": "🛒 CNN-Based Product Recognition & Price Estimation System > Deep Learning Course — Project 1 | SDU, 2026 --- 📌 Overview A web application that uses **5 CNN architectures** to recognize grocery products from photos and...",
+   "activity": {
+    "sampled_commit_count": 8,
+    "last_commit_at": "2026-03-12T10:50:34+00:00",
+    "first_sampled_commit_at": "2026-03-12T10:11:37+00:00",
+    "active_days_in_sample": 1,
+    "sample_window_days": 1
+   },
+   "is_pinned": false,
+   "resume_score": 20,
+   "heuristic_resume_bullets": [
+    "Built and maintained a ml project focused on 🛒 cnn-based product recognition & price estimation system > deep learning course — project 1 | sdu, 2026 --- 📌 overview a web application that uses **5 cnn architectures** to recognize grocery products from photos and....",
+    "Worked with Python, pandas, NumPy and published the solution as a public GitHub repository.",
+    "Shipped at least 8 sampled commits with visible public development activity."
+   ]
+  },
+  {
+   "name": "telegram_channel_analytics",
+   "full_name": "nurdauletsnn-pixel/telegram_channel_analytics",
+   "html_url": "https://github.com/nurdauletsnn-pixel/telegram_channel_analytics",
+   "homepage": null,
+   "description": null,
+   "topics": [],
+   "language": "Python",
+   "languages": {
+    "Python": 136738
+   },
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2026-03-18T19:50:00Z",
+   "pushed_at": "2026-03-18T19:49:57Z",
+   "created_at": "2026-03-11T20:24:02Z",
+   "size_kb": 16022,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": null,
+   "root_files": [
+    ".devcontainer",
+    ".gitignore",
+    "IMG_2289.JPG",
+    "app.py",
+    "data",
+    "photo_2026-03-12 02.06.08.jpeg",
+    "requirements.txt"
+   ],
+   "candidate_file_presence": [
+    "requirements.txt"
+   ],
+   "stack_signals": [
+    "Python",
+    "scikit-learn",
+    "pandas",
+    "NumPy"
+   ],
+   "project_type": "bot",
+   "business_goal": "Public repository with unclear end-user goal",
+   "activity": {
+    "sampled_commit_count": 8,
+    "last_commit_at": "2026-03-18T19:47:15+00:00",
+    "first_sampled_commit_at": "2026-03-11T20:51:34+00:00",
+    "active_days_in_sample": 3,
+    "sample_window_days": 6
+   },
+   "is_pinned": false,
+   "resume_score": 14,
+   "heuristic_resume_bullets": [
+    "Built and maintained a bot project focused on public repository with unclear end-user goal.",
+    "Worked with Python, scikit-learn, pandas, NumPy and published the solution as a public GitHub repository.",
+    "Shipped at least 8 sampled commits with visible public development activity."
+   ]
+  },
+  {
+   "name": "git-demo",
+   "full_name": "nurdauletsnn-pixel/git-demo",
+   "html_url": "https://github.com/nurdauletsnn-pixel/git-demo",
+   "homepage": null,
+   "description": "< test check >",
+   "topics": [],
+   "language": null,
+   "languages": {},
+   "stargazers_count": 0,
+   "forks_count": 0,
+   "watchers_count": 0,
+   "open_issues_count": 0,
+   "updated_at": "2025-09-13T13:13:01Z",
+   "pushed_at": "2025-09-13T13:12:58Z",
+   "created_at": "2025-09-11T06:59:41Z",
+   "size_kb": 4,
+   "archived": false,
+   "fork": false,
+   "default_branch": "main",
+   "readme_excerpt": "git-demo &lt; test check > <<<<<<< HEAD <<<<<<< HEAD some content in this file ======= >>>>>>> parent of 4beb2ac (test revert) ======= >>>>>>> parent of 4beb2ac (test revert)",
+   "root_files": [
+    ".gitignore",
+    "README.md",
+    "song.txt"
+   ],
+   "candidate_file_presence": [
+    "README.md"
+   ],
+   "stack_signals": [],
+   "project_type": "general",
+   "business_goal": "< test check >",
+   "activity": {
+    "sampled_commit_count": 10,
+    "last_commit_at": "2025-09-13T13:12:49+00:00",
+    "first_sampled_commit_at": "2025-09-11T06:59:41+00:00",
+    "active_days_in_sample": 2,
+    "sample_window_days": 2
+   },
+   "is_pinned": false,
+   "resume_score": 14,
+   "heuristic_resume_bullets": [
+    "Built and maintained a general project focused on < test check >.",
+    "Worked with public technologies and published the solution as a public GitHub repository.",
+    "Shipped at least 10 sampled commits with visible public development activity."
+   ]
+  }
+ ],
+ "llm_profile_resume": {
+  "headline": "Software Developer with Experience in AI and Data Analysis",
+  "summary": "A software developer with experience in building and maintaining various projects, including scrapers, data pipelines, and machine learning models. Proficient in a range of technologies, including Python, JavaScript, and TypeScript.",
+  "resume_bullets": [
+   "Developed a Retrieval-Augmented Generation chatbot using FastAPI documentation, incorporating ingestion, token-aware chunking, and sentence-transformer embeddings",
+   "Designed and developed a data pipeline for scraping and analyzing IT job market data across multiple sources",
+   "Built a Streamlit dashboard for visualizing insights from the Kazakhstan IT job market analysis",
+   "Developed a comprehensive education platform using TypeScript, React, and Next.js"
+  ]
+ }
+}
