@@ -1,11 +1,45 @@
-# Airflow
-logs/
-.gemini/
-__pycache__/
-*.pyc
+# Environment files
 .env
-# Ignore the nested git history but keep the files
-!it-jobs-market/
+.env.*
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Project Specific
+airflow/logs/
+airflow/.gemini/
 it-jobs-market/data/
 it-jobs-market/datasets IT Jobs/
 
+# Ignore the gitignore itself as requested
+.gitignore

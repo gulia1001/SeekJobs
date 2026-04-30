@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Users/4080/Downloads/Streamlit/app"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^cd airflow\\\\it-jobs-market ; python -m llm\\.main --input data/interim/unified_job_database\\.csv --output data/interim/enriched_jobs_full_v1\\.csv --client ollama --mode hybrid --sample-size 5$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
+}
